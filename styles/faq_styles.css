@@ -1,0 +1,113 @@
+.FAQ{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 65%;
+    flex-direction: column;
+    /* border: 2px solid grey; */
+    color: #808080;
+    padding: 5px 8px;
+    margin-bottom: 150px;
+}
+.FAQ_item{
+    width: 100%;
+}
+
+.disabled{
+    display: none;
+}
+
+.FAQ__illustrator{
+    border: none;
+    background-color: transparent;
+}
+
+.enabled_faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5px 8px; */
+}
+.faq_toggler{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 15px 8px;
+    border: 1px solid grey ;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+
+}
+.faq_toggler:not(:last-child){
+    border-bottom: none;
+}
+.site__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 138%;
+    background-color:  rgb(193, 187, 187);
+    
+}
+.site__footer_cta{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #808080;
+    padding: 5px 15px;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid rgb(193, 187, 187);
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.footer_nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#242A45;
+    padding: 15px 0px;
+}
+.footer__nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.site__footer_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+.site__footer_nav_ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.site__footer_nav_ul>li{
+    color: white;
+}
+.footer_logo{
+    color: white !important;
+    padding-left: 15px;
+}
+
+.more--info__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* .faq--info{
+    margin-left: auto;
+    margin-right: auto;
+} */

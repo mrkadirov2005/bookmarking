@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/faq_styles.css">
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <script defer src="./index.js"></script>
+  <script  defer   src="./bookmark.js"></script>
+</head>
+
+<body>
+  <header class="site--header">
+    <div class="site--header__icon_container">
+      <img src="./images/bookmark_icon^svg.svg" alt="" class="site--header__bookmark_icon_img" />
+      <h1 class="site--header__bookmark_logo">bookmark</h1>
+    </div>
+    <img src="./images/pie.svg" class="site--header__pie" id="pie" alt="">
+    <div class="site--header__links_wrapper" id="switchable_wrapper"> 
+      <ul class="site--header__links" id="responsive__lists">
+        <li class="header--links_data">features</li>
+        <li class="header--links_data">pricing</li>
+        <li class="header--links_data">contact</li>
+      </ul>
+      <button class="site--header__login_button activated">login</button>
+    </div>
+  </header>
+
+  <main class="site--main">
+    <section class="main--bookmark__manager_section">
+      <div class="main--bookmark__manager_info">
+        <h1 class="main--bookmark__manager_heading">
+          A Simple Bookmark Manager
+        </h1>
+        <p class="main--bookmark__manager_details">
+          A clean and simple interface to organize your favourite websites.
+          Open a new browser tab and see your sites load instantly. Try it for
+          free.
+        </p>
+        <div class="main--bookmark__manager_paths">
+          <button class="main--bookmark__manager_GET_button activated">
+            Get it on Chrome
+          </button>
+          <button class="main--bookmark__manager_GET_button activated">
+            Get it on Firefox
+          </button>
+        </div>
+      </div>
+
+      <div class="main--bookmark__manager_img_section">
+        <img class="main--bookmark__manager_tablet_bc" src="./images/tablet_background.png"
+          alt="tablet image background" />
+        <img class="main--bookmark__manager_tablet_icon" src="./images/tablet_icon.png" alt="tablet" />
+      </div>
+    </section>
+
+    <section class="site--main__features">
+      <h1 class="site--main__feautures_heading">Features</h1>
+      <p class="site--main__features_p">
+        Our aim is to make it quick and easy for you to access your favourite
+        websites. Your bookmarks sync between your devices so you can access
+        them on the go.
+      </p>
+    </section>
+
+    <!-- advanatages section -->
+    <section class="site--main__advantages-section">
+      <div class="site--main__advantages_switcher">
+        <hr class="site--main__advantages_hr">
+        <button class="advantages__SSB active__window" id="simple_bookmarking" type="button">
+          Simple bookmarking
+        </button>
+        <hr class="site--main__advantages_hr">
+        <button class="advantages__SSB" id="speedy_searching" type="button">
+          Speedy searching
+        </button>
+        <hr class="site--main__advantages_hr">
+        <button class="advantages__SSB" id="easy_sharing" type="button">
+          Easy sharing
+        </button>
+        <hr class="site--main__advantages_hr">
+      </div>
+
+      <div class="site--main__advantages_switchable_screen">
+        <div class="simple--bookmarking"  id="SB">
+          <div class="site--main__advantages_img_part">
+            <img src="./images/reversed_background.png" alt="" class="site--main__advantages_tablet_bc" />
+            <img src="./images/tablet.jpg" alt="" class="site--main__advantages_tablet" />
+          </div>
+          <!-- advanatages info part -->
+          <div class="main--bookmark__manager_info S_advanatages">
+            <h1 class="main--bookmark__manager_heading">
+              Bookmark in one click
+            </h1>
+            <p class="main--bookmark__manager_details">
+              Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control
+              over
+              how you manage your favourite sites.
+            </p>
+            <div class="main--bookmark__manager_paths">
+              <button class="main--bookmark__manager_GET_button activated">
+                More Info
+              </button>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="Speedy--searching" id="SS">
+          <div class="site--main__advantages_img_part">
+            <img src="./images/reversed_background.png" alt="" class="site--main__advantages_tablet_bc" />
+            <img src="./images/speedy--searching.svg" alt="" class="site--main__advantages_tablet re-analysed" />
+          </div>
+          <!-- advanatages info part -->
+          <div class="main--bookmark__manager_info S_advanatages">
+            <h1 class="main--bookmark__manager_heading">
+              Intelligent search
+            </h1>
+            <p class="main--bookmark__manager_details">
+              Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all
+              of your bookmarks.
+            </p>
+            <div class="main--bookmark__manager_paths">
+              <button class="main--bookmark__manager_GET_button activated">
+                More Info
+              </button>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="Easy--sharing" id="ES">
+          <div class="site--main__advantages_img_part">
+            <img src="./images/reversed_background.png" alt="" class="site--main__advantages_tablet_bc" />
+            <img src="./images/easy--sharing.jpg" alt="" class="site--main__advantages_tablet re-analysed-sharing" />
+          </div>
+          <!-- advanatages info part -->
+          <div class="main--bookmark__manager_info S_advanatages">
+            <h1 class="main--bookmark__manager_heading">
+              Share your bookmarks
+            </h1>
+            <p class="main--bookmark__manager_details">
+              Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
+            </p>
+            <div class="main--bookmark__manager_paths">
+              <button class="main--bookmark__manager_GET_button activated">
+                More Info
+              </button>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </section>
+
+    <section class="site--main__extensions_container">
+      <div class="site--main__extensions_info">
+        <h1 class="extensions--info__heading">Download the extension</h1>
+        <p class="extensions--info__p">
+          We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.
+        </p>
+      </div>
+
+      <div class="site--main__extensions_download_part">
+        <div class="download--extensions__chrome download">
+          <img class="download--extensions__chrome_img" src="./images/extensions/chrome 2.svg" alt="">
+          <h2 class="extensions--chrome__title">Add to Chrome</h2>
+          <h3 class="extensions--chrome__subtitle">Minimum version 62</h3>
+           <p class="extensions--chrome__dots"> . . . . . . . . .  .</p>
+           <button class="extensions--chrome__install_button activated"> add & install extension</button>
+        </div>
+
+        <div class="download--extensions__chrome download firefox_wrapper">
+          <img class="download--extensions__chrome_img" src="./images/extensions/firefox.svg" alt="">
+          <h2 class="extensions--chrome__title">Add to Firefox</h2>
+          <h3 class="extensions--chrome__subtitle">Minimum version 55</h3>
+           <p class="extensions--chrome__dots"> . . . . . . . . .  .</p>
+           <button class="extensions--chrome__install_button activated"> add & install extension</button>
+        </div>
+
+        <div class="download--extensions__chrome download opera_wrapper">
+          <img class="download--extensions__chrome_img" src="./images/extensions/Combined Shape 2.svg" alt="">
+          <h2 class="extensions--chrome__title">Add to Opera</h2>
+          <h3 class="extensions--chrome__subtitle">Minimum version 46</h3>
+           <p class="extensions--chrome__dots"> . . . . . . . . .  .</p>
+           <button class="extensions--chrome__install_button activated"> add & install extension</button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- <section class="frequently--asked__questions"></section> -->
+    <section class="g21 g_copy3">
+      <h1 class="g21__heading g6__heading">Frequently Asked Questions  </h1>
+      <p class="g21__text g6__text">
+        Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.
+      </p>
+    </section>
+
+    <section class="FAQ">
+      <div class="FAQ_item  " > 
+        <h1 class="faq_toggler" id="first_toggler">What is Bookmark? <button class="FAQ__illustrator" ><img src="./images/arrow--down.svg" alt="" class="arrow--down"></button></h1>
+       
+        <div class="FAQ__answer disabled " id="first">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          mollitia nesciunt pariatur, cupiditate quaerat necessitatibus sunt
+          voluptatum consequuntur alias distinctio natus deserunt aliquam nisi
+          illo minima eveniet. Et, quaerat! Error iure ullam mollitia vel aut.
+          Vero et non deserunt necessitatibus!
+        </div>
+      </div>
+      
+      <div class="FAQ_item">
+         <h1 class="faq_toggler"  id="second_toggler">How can I request a new browser?<button class="FAQ__illustrator" ><img src="./images/arrow--down.svg" alt="" class="arrow--down"></button></h1>
+       
+        <div class="FAQ__answer disabled"id="second">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          mollitia nesciunt pariatur, cupiditate quaerat necessitatibus sunt
+          voluptatum consequuntur alias distinctio natus deserunt aliquam nisi
+          illo minima eveniet. Et, quaerat! Error iure ullam mollitia vel aut.
+          Vero et non deserunt necessitatibus!
+        </div>
+      </div>
+      <div  class="FAQ_item"> 
+        <h1 class="faq_toggler"  id="third_toggler">Is there a mobile app? <button class="FAQ__illustrator"><img src="./images/arrow--down.svg" alt="" class="arrow--down"></button></h1>
+        
+        <div id="third" class="FAQ__answer disabled">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          mollitia nesciunt pariatur, cupiditate quaerat necessitatibus sunt
+          voluptatum consequuntur alias distinctio natus deserunt aliquam nisi
+          illo minima eveniet. Et, quaerat! Error iure ullam mollitia vel aut.
+          Vero et non deserunt necessitatibus!
+        </div>
+      </div>
+      <div  class="FAQ_item"> 
+        <h1 class="faq_toggler" id="fourth_toggler">What about other Chromium browsers?   <button  class="FAQ__illustrator"><img src="./images/arrow--down.svg" alt="" class="arrow--down"></button></h1>
+      
+        <div id="fourth" class="FAQ__answer disabled">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          mollitia nesciunt pariatur, cupiditate quaerat necessitatibus sunt
+          voluptatum consequuntur alias distinctio natus deserunt aliquam nisi
+          illo minima eveniet. Et, quaerat! Error iure ullam mollitia vel aut.
+          Vero et non deserunt necessitatibus!
+        </div>
+      </div>
+
+      <div class="more--info__container">
+        <button class="main--bookmark__manager_GET_button activated faq--info">
+          More Info
+        </button>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer class="site--footer">
+    <div class="site--footer__upper_part">
+      <h1 class="site--footer__joined_counter">
+        35,000+ ALREADY JOINED
+      </h1>
+      <h1 class="site--footer__stay_up_to_date">Stay up-to-date with what <br>
+        we’re doing</h1>
+          <div class="site--footer__input_part">
+        <input placeholder="enter your email" type="text" class="site--footer__input">
+        <button class="site--footer__contact_button activated">Contact Us</button>
+          </div> 
+      </div>
+
+      <div class="site--footer__nav_part">
+        <div class="site--footer__nav_left_part">
+          <div class="site--header__icon_container footer_version">
+            <img src="./images/bookmark_icon^svg.svg" alt="" class="site--header__bookmark_icon_img" />
+            <h1 class="site--header__bookmark_logo">bookmark</h1>
+          </div>
+          <ul class="site--header__links">
+            <li class="header--links_data">features</li>
+            <li class="header--links_data">pricing</li>
+            <li class="header--links_data">contact</li>
+          </ul>
+        </div>
+        <div class="site--footer__nav_right_part">
+          <img src="./images/social--media-icons/facebook.svg" alt="" class="face--book">
+          <img src="./images/social--media-icons/twitter.svg" alt="" class="twitter--icon">
+        </div>
+      </div>
+  </footer>
+
+
+  
+</body>
+
+</html>
